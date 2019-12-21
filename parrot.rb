@@ -1,2 +1,6 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+def phrase(sound = "squawk")
+  "I am a parrot and I #{sound}"
+end
+
+say_phrase("Parrot")
+
